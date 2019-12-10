@@ -32,9 +32,9 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT_kc(
   //,----+----+----+----+----+----.    ,----+----+----+----+----+----.
-     TALT, Q  , W  , E  , R  , T  ,      Y  , U  , I  , O  , P  ,BSPC,
+     ESC , Q  , W  , E  , R  , T  ,      Y  , U  , I  , O  , P  ,BSPC,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     ESC , A  , S  , D  , F  , G  ,      H  , J  , K  , L  ,SCLN,QUOT,
+     TALT , A  , S  , D  , F  , G  ,      H  , J  , K  , L  ,SCLN,QUOT,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,      N  , M  ,COMM,DOT ,SLSH,RSFT,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
@@ -46,9 +46,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----.    ,----+----+----+----+----+----.
      TILD,XXXX,EXLM, AT ,HASH,XXXX,     LPRN,RPRN,LABK,RABK,XXXX,DEL ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     XXXX,XXXX,DLR ,PERC,CIRC,XXXX,     LCBR,RCBR,MINS,PLUS,XXXX,XXXX,
+     XXXX,XXXX,DLR ,PERC,CIRC,XXXX,     LBRC,RBRC,MINS,PLUS,EQL,XXXX,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     XXXX,XXXX,AMPR,ASTR,XXXX,XXXX,     LBRC,RBRC,XXXX,XXXX,XXXX,XXXX,
+     XXXX,XXXX,AMPR,ASTR,XXXX,XXXX,     LCBR,RCBR,XXXX,XXXX,XXXX,XXXX,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      ____,____,____,____,____,____,     ____,____,____,____,____,____
   //`----+----+----+----+----+----'    `----+----+----+----+----+----' 
