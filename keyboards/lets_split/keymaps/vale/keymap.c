@@ -34,11 +34,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----.    ,----+----+----+----+----+----.
      ESC , Q  , W  , E  , R  , T  ,      Y  , U  , I  , O  , P  ,BSPC,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     TALT , A  , S  , D  , F  , G  ,      H  , J  , K  , L  ,SCLN,QUOT,
+     TALT , A  , S  , D  , F  , G  ,     H  , J  , K  , L  ,SCLN,QUOT,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,      N  , M  ,COMM,DOT ,SLSH,RSFT,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     LCTL,LALT,XXXX,LGUI, X1 ,SPC ,     ENT , X2 ,RALT,RGUI,RCTL,ARR
+     LCTL,LALT,LGUI,XXXX, X1 ,SPC ,     ENT , X2 ,RALT,RGUI,RCTL,ARR
   //`----+----+----+----+----+----'    `----+----+----+----+----+----' 
   ),
 
